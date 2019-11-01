@@ -224,7 +224,7 @@ footer nav a:hover
 }
 @keyframes footerNavAnimation
 {
-    form{color: yellow;}
+    from{color: yellow;}
     to{color: white;}
 }
 
