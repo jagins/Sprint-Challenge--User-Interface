@@ -251,7 +251,12 @@ footer nav a:hover
 
 .middleContainer div
 {
-    margin-left: 2%;;
+    margin-left: 2%;
+}
+
+.middleContainer div h3
+{
+    margin-top: 3%;
 }
 
 hr
