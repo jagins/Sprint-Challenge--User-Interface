@@ -216,3 +216,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover
+{
+    color: yellow;
+    animation-name: footerNavAnimation;
+    animation-duration: 4s;
+}
+@keyframes footerNavAnimation
+{
+    form{color: yellow;}
+    to{color: white;}
+}
+
+/*About page CSS*/
+#aboutPic
+{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.aboutText
+{
+    margin-left: 2%;
+}
+
+.middleContainer
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.middleContainer div
+{
+    margin-left: 2%;;
+}
+
+hr
+{
+    margin: 2%;
+    border: 1px dashed;
+}
+
+.button
+{
+    border: 1px solid black;
+	border-radius: 5px;
+	width: fit-content;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5%;
+}
+
+.aboutBottom
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
